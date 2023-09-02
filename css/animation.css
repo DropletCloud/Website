@@ -1,0 +1,23 @@
+@keyframes button_top {
+    0% {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.top-button {
+    animation-name: button_top;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
